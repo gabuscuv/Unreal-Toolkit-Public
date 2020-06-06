@@ -1,4 +1,11 @@
 #!/bin/sh
+###-----------------------------------------------------------------
+###   Author:   Gabriel Bustillo del Cuvillo
+###   License:  Apache License 2.0
+###   Original Repo: https://github.com/gabuscuv/UE4-Toolkit-Public
+###-----------------------------------------------------------------
+
+
 #NAME=`git config user.name`
 #LICENSE="Apache License 2.0"
 
@@ -8,4 +15,4 @@ mkdir -p 	$SOURCE/Character \
 		$SOURCE/Core \
 		$SOURCE/ActorComponents
 
-# echo "Copyright © 2019 - $NAME"
+# echo "Copyright Â© 2019 - $NAME"

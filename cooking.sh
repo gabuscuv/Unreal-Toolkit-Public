@@ -1,4 +1,10 @@
 #!/bin/bash
+###-----------------------------------------------------------------
+###   Author:   Gabriel Bustillo del Cuvillo
+###   License:  Apache License 2.0
+###   Original Repo: https://github.com/gabuscuv/UE4-Toolkit-Public
+###-----------------------------------------------------------------
+
 # Init Variable
 oldPWD=$PWD
 uproject=`ls "$oldPWD"/*.uproject`
