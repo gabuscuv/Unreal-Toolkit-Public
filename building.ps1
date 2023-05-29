@@ -19,4 +19,5 @@ Engine/Build/BatchFiles/RunUAT.bat `
 BuildCookRun `
     -project="$uproject" -noP4 `
     -platform=Win64 -clientconfig="$PROFILE" -build
-PAUSE
+
+    if (! $Args[0] -eq "--withoutpause") {PAUSE}
